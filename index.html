@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="Online test-amico.png" id="f_img" alt="">
+    <p style="font-size: 2rem; position:relative; z-index:1; top:15%; left:43%; opacity:0;" id="resultp">Your reult is : 1</p>
+    <div class="continer" id="cont_of_q">
+        <p id="qus">What does HTML stand for?</p><hr>
+        <button onclick="getanswer(1)" class="btn-answer" style="margin-left: 8vw; margin-top:3vw; margin-right:10vw; margin-bottom:4vw;" id="ana" >A) Hyper Text Markup Language</button>
+        <button onclick="getanswer(2)" class="btn-answer" id="anb">B) High-Level Text Management Language</button>
+        <button onclick="getanswer(3)" class="btn-answer" id="anc" style="margin-top:2%; margin-left:8vw; margin-right:6.5vw; margin-bottom:4vw;">C) Hyperlink and Text Markup Language</button>
+        <button onclick="getanswer(4)" style="margin-left: 0vw;" class="btn-answer" id="and">D) High-Level Markup Language</button>
+        <div id="cont_of_cr" style="display: flex; top:20%vw; left:49.5%; position:absolute;">
+        </div>
+        </div>
+        <button class="submit" onclick="submit()">Submit</button>
+        <button style="position: relative; top:-17vw;
+        left:-5vw;" id="start-btn" onclick="start()">Start</button>
+    <script src="script.js"></script>
+    <img src="Taking notes-amico.png" id="s_img" alt="">
+</body>
+</html>
